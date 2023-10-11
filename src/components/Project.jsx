@@ -1,12 +1,13 @@
 import ProjectCard from "./ProjectCard";
 import { NavBar } from "./Navbar";
-
+// flex max-w-screen-lg	m-auto p-auto h-screen content-center	justify-center items-center
 const Project = () => {
   return (
-    <>
+    <div className="bg-bodycolor font-IBMPlexSans">
       <NavBar />
-      <div className="max-w-screen-lg m-auto p-auto h-screen">
-        <div className="text-4xl font-extrabold	py-[16px] text-center">
+      <div className="max-w-screen-lg m-auto p-auto">
+
+        <div className="text-4xl font-extrabold	pt-[150px] pb-[50px] text-center">
           <p>Projects</p>
         </div>
 
@@ -109,7 +110,7 @@ const Project = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Project;

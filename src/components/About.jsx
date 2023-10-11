@@ -1,33 +1,24 @@
-
+import { NavBar } from "./Navbar";
+// border-solid border-black	border-2
+// bg-bodycolor
 export const About = () => {
   return (
+    <div className="bg-bodycolor font-IBMPlexSans">
+      <NavBar />
 
       <div
         id="profile-content"
-        className="max-w-screen-lg	m-auto p-auto h-screen border-solid border-black	border-2 "
+        className="flex max-w-screen-lg	m-auto p-auto h-screen content-center	justify-center items-center"
       >
-        <div className="flex flex-row gap-10 my-[25vh]">
-          <img
-            className="h-[320px] rounded-lg"
-            src="/profile-img.JPG"
-            alt="profile-image"
-          />
-          <div className="flex flex-col">
-            <p className="text-xl indent-4 whitespace-normal text-justify  ">
-              I am a career switcher from Scientist to Software developer, Now I
-              am seeking a software developer position. I have experience in
-              administration and customer service for 9 months and I have
-              experience in research assistance for 7 months. Both of these
-              experiences allowed me to pay attention to detail in processes. In
-              addition to analytical and problem solving. <br />
-              <a
-                className="text-sm bg-[#FFFADD] hover:bg-[#FFCC70] rounded-3xl p-1 "
-                href="https://docs.google.com/document/d/1H9CzaV_ODrcVbpUeb7ZePC3JZxdaNbe0FIvsvnHFbnA/edit?usp=sharing"
-              >
-                view my resume
-              </a>
-            </p>
-            <div id="tech-skill" className="py-[16px]">
+        <div className="flex flex-row gap-10">
+          <div className="flex flex-col  content-center	justify-center">
+            <img
+              className="rounded-lg "
+              src="/profile-img.JPG"
+              alt="profile-image"
+            />
+            <div id="tech-skill" className="py-[16px] my-5">
+              <p className=" font-bold text-xl">Skills</p>
               <ul className="flex flex-row gap-[14px] py-[8px]">
                 <li id="HTML" className=" ">
                   <svg
@@ -257,8 +248,32 @@ export const About = () => {
               </ul>
             </div>
           </div>
+
+          <div className="flex flex-col">
+            <p className="text-xl whitespace-normal text-justify ">
+              I am a career switcher from Scientist to Software developer, Now I
+              am seeking a software developer position. I have experience in
+              administration and customer service for 9 months and I have
+              experience in research assistance for 7 months. Both of these
+              experiences allowed me to pay attention to detail in processes. In
+              addition to analytical and problem solving. <br />
+            </p>
+            <div className=" my-5">
+              <button
+                type="button"
+                className="hover:text-[#FFFADD] hover:bg-[#22668D] hover:shadow-lg inline-block rounded-full bg-blue px-6 pb-2 pt-2.5 text-xs uppercase font-semibold"
+              >
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/document/d/1H9CzaV_ODrcVbpUeb7ZePC3JZxdaNbe0FIvsvnHFbnA/edit?usp=sharing"
+                >
+                  view my resume
+                </a>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-
+    </div>
   );
 };
