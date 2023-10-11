@@ -1,10 +1,11 @@
-import { NavBar } from "./Navbar";
 
 export const About = () => {
   return (
-    <div>
-      <NavBar />
-      <div id="profile-content" className="max-w-screen-lg	m-auto p-auto">
+
+      <div
+        id="profile-content"
+        className="max-w-screen-lg	m-auto p-auto h-screen border-solid border-black	border-2 "
+      >
         <div className="flex flex-row gap-10 my-[25vh]">
           <img
             className="h-[320px] rounded-lg"
@@ -258,6 +259,6 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </div>
+
   );
 };
