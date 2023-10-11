@@ -1,9 +1,9 @@
 const ProjectCard = ({ title, image, description, icons, link }) => {
   return (
-    <div className="card transition duration-300 ease-in-out hover:scale-90">
+    <div className="card ">
       <div className="justify-items-center p-1 mb-4 bg-[8ECDDD] w-[460px] h-[270px] rounded-lg ">
         <img
-          className="justify-items-center rounded-lg block object-cover h-[100%]"
+          className="justify-items-center rounded-lg block object-cover h-[100%] "
           src={image ?? "image-default-project.jpeg"}
           alt="project-image"
         />

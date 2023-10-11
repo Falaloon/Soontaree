@@ -7,7 +7,7 @@ const Project = () => {
       <NavBar />
       <div className="max-w-screen-lg m-auto p-auto h-screen">
         <div className="text-4xl font-extrabold	py-[16px] text-center">
-          <p>Project</p>
+          <p>Projects</p>
         </div>
 
         <div className="grid grid-cols-2 gap-2">
@@ -107,8 +107,6 @@ const Project = () => {
             }
             link={"https://github.com/Falaloon/ColmarAcademy_Assessment"}
           />
-        
-        
         </div>
       </div>
     </>
