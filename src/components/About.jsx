@@ -265,7 +265,7 @@ export const About = () => {
               >
                 <a
                   target="_blank"
-                  href="https://docs.google.com/document/d/1H9CzaV_ODrcVbpUeb7ZePC3JZxdaNbe0FIvsvnHFbnA/edit?usp=sharing"
+                  href="https://www.canva.com/design/DAFw98rwcAY/DV5MWhgCVy7Mtnyk9KREnQ/view?utm_content=DAFw98rwcAY&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                 >
                   view my resume
                 </a>
