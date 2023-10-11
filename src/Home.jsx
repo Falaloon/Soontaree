@@ -1,12 +1,12 @@
 import { NavBar } from "./components/Navbar";
-import Greating from "./components/Greeting";
+import Hero from "./components/Hero";
 
 function Home() {
-
   return (
     <div className="bg-bodycolor">
       <NavBar />
-      <Greating />
+      <Hero />
+
     </div>
   );
 }

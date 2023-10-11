@@ -1,14 +1,9 @@
-// border-solid border-black	border-2 
-const Greating = () => {
+// border-solid border-black	border-2
+const Hero = () => {
   return (
-    <div className="flex max-w-screen-lg	m-auto p-auto h-screen  content-center	justify-center items-center ">
-      <div
-        id="greating"
-        className="text-center w-full justify-center"
-      >
-        <p className="text-4xl font-bold	py-[16px] ">
-          Hi! 👋 , I'm Soontaree
-        </p>
+    <div className="flex max-w-screen-lg	m-auto p-auto  h-screen  content-center	justify-center items-center ">
+      <div id="Hero" className="text-center w-full justify-center">
+        <p className="text-4xl font-bold	py-[16px] ">Hi! 👋 , I'm Soontaree</p>
         <p className="text-3xl py-[12px] ">
           Software Developer, Bangkok Thailand.
         </p>
@@ -112,4 +107,4 @@ const Greating = () => {
     </div>
   );
 };
-export default Greating;
+export default Hero;
