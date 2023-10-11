@@ -1,22 +1,26 @@
+// border-solid border-black	border-2
 export const NavBar = () => {
   return (
-    <div className="navbar shadow-md ">
-      <ul className="navbar-list grid grid-cols-12 gap-12 justify-items-center h-[50px] content-center	">
+    <div className=" fixed w-full h-[70px] text-[#FFFADD items-center flex flex-row justify-between px-10 bg-[#22668D] z-10 font-bold font-IBMPlexSans text-xl rounded-b-lg">
+      <p className="hover:bg-[#22668D] hover:text-[#FFFADD] hover:shadow-lg hover:scale-70 rounded-b-lg p-2">
+        Soontaree Rs
+      </p>
+      <ul className="flex flex-row justify-around gap-10 ">
         <li
-          className="col-start-10 col-end-10
-         hover:bg-[#FFCC70] active:bg-[#f2bc58] hover:shadow-lg hover:scale-125 rounded-3xl p-4	"
+          className="
+          hover:bg-[#22668D] hover:text-[#FFFADD] hover:shadow-lg hover:scale-70 rounded-b-lg p-2"
         >
           <a href="/">Home</a>
         </li>
         <li
-          className="col-start-11 col-end-11
-          hover:bg-[#FFCC70]  active:bg-[#f2bc58]  hover:shadow-lg hover:scale-125 rounded-3xl p-4	"
+          className="
+          hover:bg-[#22668D] hover:text-[#FFFADD] hover:shadow-lg hover:scale-70 rounded-b-lg p-2"
         >
           <a href="/project">Project</a>
         </li>
         <li
-          className="col-start-12 col-end-12
-          hover:bg-[#FFCC70]  active:bg-[#f2bc58]  hover:shadow-lg hover:scale-125 rounded-3xl p-4	"
+          className="
+          hover:bg-[#22668D] hover:text-[#FFFADD] hover:shadow-lg hover:scale-70 rounded-b-lg p-2"
         >
           <a href="/about">About</a>
         </li>
