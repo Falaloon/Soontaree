@@ -6,7 +6,6 @@ const Project = () => {
     <div className="bg-bodycolor font-IBMPlexSans">
       <NavBar />
       <div className="max-w-screen-lg m-auto p-auto">
-
         <div className="text-4xl font-extrabold	pt-[150px] pb-[50px] text-center">
           <p>Projects</p>
         </div>
@@ -16,7 +15,7 @@ const Project = () => {
             title="Rocket-Fit"
             image="Rocket-Fit.png"
             description={
-              "Rocket-Fit เว็บไซต์บันทึกข้อมูลการออกกำลังกาย สร้างขึ้นโดยใช้ React, Express, MongoDB, Tailwind, daisyUI "
+              "Rocket-Fit is a website for recording exercise data, built using React, Express, MongoDB, Tailwind, and daisyUI."
             }
             icons={
               <svg
@@ -38,7 +37,7 @@ const Project = () => {
             title="React Assessment"
             image="React-Assessment.png"
             description={
-              "เป็นโปรเจกต์ที่ใช้ Function-Based React Component ซึ่งมีการใช้ Props, State, React Router, React Hook(useState) โดยมี Design และข้อมูลมาให้"
+              "This is a project that uses Function-Based React Components, which involves the use of Props, State, React Router, and the React Hook (useState), with design and data provided."
             }
             icons={
               <svg
@@ -60,7 +59,7 @@ const Project = () => {
             title="Find My Hat"
             image="find-my-hat.png"
             description={
-              "เกมหาหมวกให้เจอ โดยเดินห้ามตกหลุมและห้ามเดินออกนอกแผนที่ และทุกๆ ครั้งในการเริ่มเกมจะทำการสุ่มแผนที่ สุ่มจุดเริ่มต้นของผู้เล่น และสุ่มการเกิดของหมวกในแผนที่ เกมนี้สร้างขึ้นโดยการใช้ภาษา JavaScript"
+              "Find the hat game by walking without falling into holes and without walking outside of the map. Each time the game starts, it randomly generates the map, the player's starting point, and the location of the hat. This game is created using the JavaScript."
             }
             icons={
               <svg
@@ -91,7 +90,7 @@ const Project = () => {
             title={"COLMARCACADEMY"}
             image={"ColmarAcademy.png"}
             description={
-              "Static website เป็นการแสดงข้อมูลแบบตายตัว เกี่ยวกับคอร์สเรียน ซึ่งมี Design กำหนดมาให้ เว็บไซต์นี้เขียนโดยใช้ภาษา HTML และ CSS "
+              "A static website is a presentation of information in a fixed format about courses, with a predetermined design. This website is written using HTML and CSS."
             }
             icons={
               <svg
