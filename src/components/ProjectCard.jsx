@@ -1,4 +1,4 @@
-const ProjectCard = ({ title, image, description, icons, link }) => {
+const ProjectCard = ({ title, image, description, icons, link, view}) => {
   return (
     <div className="card ">
       <div className="justify-items-center p-1 mb-4 bg-[8ECDDD] w-[460px] h-[270px] rounded-lg ">
@@ -14,7 +14,7 @@ const ProjectCard = ({ title, image, description, icons, link }) => {
           {description ?? "Lorem"}
         </p>
         <div className="flex flex-row justify-end mt-[32px] gap-[16px]">
-          View more
+          <a href={view} target="_blank">View more</a>
           <a href={link} target="_blank">
             {icons}
           </a>
